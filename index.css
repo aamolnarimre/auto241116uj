@@ -11,4 +11,34 @@ nav{
     background-color: rgb(49, 172, 49);
     padding: 30px;
     
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    
+    gap: 5 px;
+    
+}
+footer{
+    text-align: center;
+    background-color: rgb(90, 90, 150);
+}
+div{
+    border: 2px solid black;
+    
+}
+img{
+    max-width: 300px;
+  
+}
+
+ul{
+    list-style-type: none;
+}
+
+#harmadik img{
+    width: 100%;
+    max-width: 100%;
 }
